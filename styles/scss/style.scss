@@ -1,1 +1,23 @@
 @import './variables';
+@import './header';
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: $font-size;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: $white;
+	font-family: $font-family-body;
+}
+
+h1 {
+	font-family: $font-family-headings;
+	font-weight: $font-weight-bold;
+}
