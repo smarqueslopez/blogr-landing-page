@@ -1,12 +1,17 @@
+$font-size-header: 3.75rem;
+$font-size-paragraph: 1.25rem;
+
 .header {
+	height: 37.5rem;
+	color: $white;
 	justify-content: center;
 	align-items: center;
 	background-image: url(../../images/bg-pattern-intro.svg),
 	linear-gradient(to right, $very-light-red-gradient, $light-red-gradient);
 	overflow: hidden;
 	background-repeat: no-repeat;
+	background-position: 25% 50%;
 	border-bottom-left-radius: 5.55rem;
-	color: $white;
 
 	&__nav {
 		width: 100%;
@@ -59,7 +64,12 @@
 		padding: 4rem 0;
 
 		h1 {
+			margin: 0;
 			font-size: $font-size-header;
+		}
+
+		p {
+			font-size: $font-size-paragraph;
 		}
 
 		&__buttons {
@@ -72,17 +82,16 @@
 
 	.button {
 		display: inline-block;
+		cursor: pointer;
 		border-radius: 5rem;
-		outline: none;
-		border: none;
-		padding: 1rem 1.5rem;
+		border: 1px solid $white;
+		padding:0.75rem 2.25rem;
 		margin: 1rem;
 
 		&--primary {
 			background-color: $white;
 			color: $light-red;
 			font-weight: $font-weight-bold;
-			font-family: $font-family-headings;
 		}
 	}
 
