@@ -3,11 +3,12 @@ $font-size-paragraph: 1.25rem;
 
 .header {
 	height: 37.5rem;
+	margin-bottom: 10rem;
 	color: $white;
 	justify-content: center;
 	align-items: center;
 	background-image: url(../images/bg-pattern-intro.svg),
-	linear-gradient(to right, $very-light-red-gradient, $light-red-gradient);
+					  linear-gradient(to right, $very-light-red-gradient, $light-red-gradient);
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-position: 25% 50%;
@@ -25,7 +26,7 @@ $font-size-paragraph: 1.25rem;
 			align-items: center;
 
 			.nav__logo {
-				padding-right: 5rem;
+				padding-right: 4.5rem;
 			}
 
 		}
