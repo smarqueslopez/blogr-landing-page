@@ -19,11 +19,13 @@
 		margin-bottom: 4rem;
 		text-align: left;
 
-		h3 {
-			margin-bottom: 2rem;
-			text-decoration: none;
-			cursor: pointer;
+		a {
 			color: $white;
+			text-decoration: none;
+
+			h3 {
+				margin-bottom: 2rem;
+			}
 		}
 
 		ul {
