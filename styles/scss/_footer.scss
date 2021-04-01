@@ -21,6 +21,9 @@
 
 		h3 {
 			margin-bottom: 2rem;
+			text-decoration: none;
+			cursor: pointer;
+			color: $white;
 		}
 
 		ul {
@@ -36,7 +39,7 @@
 		font-size: 11px;
 		text-align: center;
 		a {
-		color: hsl(228, 45%, 44%);
+			color: $light-blue;
 		}
 	}
 
