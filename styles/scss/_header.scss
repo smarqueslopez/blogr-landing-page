@@ -45,6 +45,28 @@ $font-size-paragraph: 1.25rem;
 			padding: 0;
 		}
 
+		.nav__item {
+			position: relative;
+
+			.nav_submenu {
+				display: none;
+				position: absolute;
+				top: 25px;
+				background: $white;
+				box-shadow: 5px 5px 10px 1px $black;
+				opacity: 0.9;
+			}
+
+			&:hover .nav_submenu {
+				display: block;
+			}
+
+			.nav_submenu:hover {
+				display: block;
+			}
+
+		}
+
 		.nav__link {
 			padding-right: 2rem;
 			color: $white;
@@ -53,6 +75,19 @@ $font-size-paragraph: 1.25rem;
 
 			img {
 				padding-left: 0.25rem;
+			}
+		}
+
+		.nav_submenu {
+			padding: 1rem;
+			border-radius: 10px;
+			color: $light-red;
+			background-color: $white;
+			li {
+				font-weight: $font-weight-normal;
+				&:hover {
+					font-weight: $font-weight-bold;
+				}
 			}
 		}
 	}
